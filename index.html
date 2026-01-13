@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rahul Furniture & Interior Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Best furniture shop offering sofa, bed, dining table & custom furniture.">
+<meta name="keywords" content="furniture shop, sofa, bed, dining table, custom furniture">
+<meta name="author" content="Rahul Furniture">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+<header>
+  <header>
+  <div class="logo">
+    Rahul <span>Furniture& Interior Designer</span>
+  </div>
+
+</header>
+
+  <div class="social-icons">
+  <a href="https://www.instagram.com/rahulfurniture_?utm_source=qr&igsh=MW56ZTR6MzRmNnRhOA==" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/share/1FzGH6kd3t/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.youtube.com/@rahulfurniture8877" target="_blank"><i class="fab fa-youtube"></i></a>
+  <a href="https://wa.me/+918789393339" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#payments">Payments</a>
+    <a href="#contact-form">Contact</a>
+    <a href="#policies">Policies</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Premium Furniture</h1>
+    <p>Comfort • Style • Quality</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </div>
+
+  <div class="hero-image">
+    <img src="furniture1.png" alt="Furniture">
+    <img src="furniture.png" alt="Furniture">
+    <img src="furniture2.png" alt="Furniture">
+  </div>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+
+  <div class="products-flex">
+
+    <div class="product-card">
+      <img src="sofa-set.jpeg" alt="Sofa Set">
+      <h3>Luxury Sofa Set</h3>
+      <p class="desc">Comfortable modern design with premium fabric.</p>
+      <p class="price">₹30,000〜₹60,000</p>
+      <button onclick="enquire('Luxury Sofa Set')">Inquiry Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="wooden-bed.jpg" alt="Bed">
+      <h3>Wooden Bed</h3>
+      <p class="desc">Single, Double, King / Queen Size(Solid Wood Bed).</p>
+      <p class="price">₹20,000 – ₹80,000</p>
+      <button onclick="enquire('Wooden Bed')">Inquiry Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="dining-table.jpg" alt="Dining Table">
+      <h3>Dining Table</h3>
+      <p class="desc">6 seater dining table with premium finish.</p>
+      <p class="price">₹15,000 – ₹45,000</p>
+      <button onclick="enquire('Dining Table')">Inquiry Now</button>
+    </div>
+    <div class="product-card">
+      <img src="wardrobes.avif" alt="Wardrobes">
+      <h3>Wardrobes</h3>
+      <p class="desc">Used to store clothes, accessories, and personal items.</p>
+      <p class="price">₹25,000 – ₹50,000</p>
+      <button onclick="enquire('Wardrobes')">Inquiry Now</button>
+    </div>
+    <div class="product-card">
+      <img src="bookshelf.jpg" alt="BookShelf">
+      <h3>BookShelf</h3>
+      <p class="desc">Used to store and organize books, magazines, decor, photo frames, and storage boxes.</p>
+      <p class="price">₹7,000 – ₹20,000</p>
+      <button onclick="enquire('BookShelf')">Inquiry Now</button>
+    </div>
+    <div class="product-card">
+      <img src="desk.jpg" alt="Desk">
+      <h3>Desk</h3>
+      <p class="desc">A desk is a flat table‑style piece of furniture used for studying, writing, using a computer, or working.</p>
+      <p class="price">₹5,000 – ₹15,000</p>
+      <button onclick="enquire('Desk')">Inquiry Now</button>
+    </div>
+     <div class="product-card">
+      <img src="coffee-table.jpg" alt="Coffee Table">
+      <h3>Coffee Table</h3>
+      <p class="desc">A coffee table (or centre table) is a low table placed in front of a sofa or seating area.</p>
+      <p class="price">₹2,000 – ₹15,000</p>
+      <button onclick="enquire('Coffee Table')">Inquiry Now</button>
+    </div>
+    <div class="product-card">
+      <img src="dressing-table.jpg" alt="Dressing Table">
+      <h3>Dressing Table</h3>
+      <p class="desc">A dressing table (also called a vanity table) is a bedroom furniture piece with a mirror and tabletop surface used for grooming, makeup, jewelry storage, and personal care.</p>
+      <p class="price">₹10,000 – ₹60,000</p>
+      <button onclick="enquire('Dressing Table')">Inquiry Now</button>
+    </div>
+    <div class="product-card">
+      <img src="chairs.jpg" alt="Chairs">
+      <h3>Chairs</h3>
+      <p class="desc">Simple design, straight back, plain seat.Good for dining rooms, verandas, study areas.</p>
+      <p class="price">₹2,000 – ₹5,000</p>
+      <button onclick="enquire('Chairs')">Inquiry Now</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact-form" class="contact">
+  <h2>Get Instant Quote</h2>
+
+  <form id="whatsappForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <select id="product">
+      <option>Luxury Sofa Set</option>
+      <option>Wooden Bed</option>
+      <option>Dining Table</option>
+      <option>Wardrobes</option>
+      <option>BookShelf</option>
+       <option>Desk</option>
+        <option>Coffee Table</option>
+         <option>Dressing Table</option>
+         <option>Chairs</option>
+    </select>
+    <input type="address" id="phone" placeholder="Delivery Address" required>
+    <textarea id="message" placeholder="Your Requirement"></textarea>
+    <button type="submit" class="btn">Send on WhatsApp</button>
+  </form>
+</section>
+
+<!-- Payments Section -->
+<section id="payments" class="payment-section">
+  <div class="payment-card">
+
+    <img src="phonepe.png" alt="PhonePe Logo" class="payment-logo">
+
+    <h2>Make a Payment</h2>
+    <p class="pay-name">Rahul Furniture & Interior Designer</p>
+
+    <div class="upi-box">
+      <span id="upiId">rk181@ybl</span>
+      <button onclick="copyUPI()">Copy</button>
+    </div>
+
+    <div class="qr-box">
+      <img src="paytm.jpg" alt="PhonePe QR Code">
+    </div>
+
+    <p class="pay-note">
+      Scan QR or copy UPI ID to make payment  
+      <br>Advance payment required
+    </p>
+
+  </div>
+</section>
+
+<!-- Location -->
+<section>
+  <h2>Visit Our Store</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14616.8223930838!2d86.16740465927737!3d23.668604421307805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f422282ab68935%3A0xbda6935dca1751ec!2sRahul%20Furniture%20%26%20Interior%20Designer%20-best%20shop%20in%20jharkhand!5e0!3m2!1sen!2sin!4v1767863640707!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<section id="why-choose-us" class="luxury-section">
+  <h2>Why Choose Rahul Furniture</h2>
+
+  <div class="choose-grid">
+    <div class="choose-box">✔ 15+ Years Experience</div>
+    <div class="choose-box">✔ Premium Quality Wood</div>
+    <div class="choose-box">✔ Custom Furniture & Interior</div>
+    <div class="choose-box">✔ On-Time Delivery</div>
+    <div class="choose-box">✔ Affordable Pricing</div>
+    <div class="choose-box">✔ After Sales Support</div>
+  </div>
+</section>
+
+<section id="work-gallery" class="luxury-section dark">
+  <h2>Our Recent Work</h2>
+
+  <div class="gallery-grid">
+    <img src="work1.jpg">
+    <img src="work2.jpg">
+    <img src="work3.jpg">
+    <img src="work4.jpg">
+    <img src="work5.jpg">
+    <img src="work6.jpg">
+    <img src="work7.jpg">
+    <img src="work8.webp">
+  </div>
+</section>
+
+<section id="trust-badges" class="luxury-section">
+  <div class="badge-grid">
+    <div class="badge">⭐ 5-Star Rated</div>
+    <div class="badge">✔ 1000+ Happy Customers</div>
+    <div class="badge">🛠 Warranty Available</div>
+    <div class="badge">🚚 Delivery Charges (By Location)*</div>
+  </div>
+</section>
+
+<section id="our-process" class="luxury-section dark">
+  <h2>Our Work Process</h2>
+
+  <div class="process-grid">
+    <div class="process-step">1️⃣ Free Consultation</div>
+    <div class="process-step">2️⃣ Design Approval</div>
+    <div class="process-step">3️⃣ Manufacturing</div>
+    <div class="process-step">4️⃣ Quality Check</div>
+    <div class="process-step">5️⃣ Delivery & Installation</div>
+  </div>
+</section>
+
+
+<!-- Policies -->
+<section id="policies">
+  <h2>Legal</h2>
+  <p><strong>Terms:</strong> Orders subject to availability.</p>
+  <p><strong>Privacy:</strong> Customer data is safe.</p>
+  <p><strong>Disclaimer:</strong> Images for reference only.</p>
+</section>
+
+<!-- Payment Refund Policy -->
+<section id="payment refund policy">
+  <h2>Payment Refund Policy</h2>
+  <p>An advance payment is required to confirm all orders.</p>
+  <p>Advance payments are non-refundable.</p>
+  <p>Balance payment must be completed before or at the time of delivery.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <p><strong>📞 Mobile:</strong>
+    <a href="tel:+918789393339">+918789393339</a>
+  </p>
+
+  <p><strong>📧 Email:</strong>
+    <a href="rsah3683@gmail.com">rsah3683@gmail.com</a>
+  </p>
+
+<p><strong>⏱️Time:</strong>
+    09:00 AM To 10:00 PM
+  </p>
+
+  <p><strong>📍 Location:</strong>
+    Sector - 6/D, Opposite Post Office, Po - Sector 6, Ps - Sector 6, B.S.City, Jharkhand - 827006.
+  </p>
+</section>
+
+<!-- WhatsApp Floating -->
+<a href="https://wa.me/+918789393339" class="whatsapp">💬</a>
+
+<footer>
+  <p>© 2026 Rahul Furniture & Interior Designer | Designed with💛</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
